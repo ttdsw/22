@@ -20,19 +20,6 @@
 			"usable":true
 		},
 		{
-			"configName":"六U影视",
-			"configType":"WebPage",
-			"itemNameRegex":"<li><a title=\"(.*?)\" href=\".*\" target=\"_self\">.*</a></li>",
-			"itemUrlRegex":"<li><a title=\".*\" href=\"(.*?)\" target=\"_self\">.*</a></li>",
-			"searchNameRegex":"lazyload\" href=\".*\" title=\"(.*?)\" data-original=\".*\"> <",
-			"searchPictureRegex":"lazyload\" href=\".*\" title=\".*\" data-original=\"(.*?)\"> <",
-			"searchStateRegex":"<span class=\"pic-text text-right\">(.*?)</span>",
-			"searchTypeRegex":"类型：</span>(.*?)<span class=\"split-line\"></span><span class=\"text-muted\">地区：</span>",
-			"searchUrl":"http://www.6uyy.com/search.php?searchword={SearchWord}&amp",
-			"searchUrlRegex":"lazyload\" href=\"(.*?)\" title=\".*\" data-original=\".*\"> <",
-			"usable":true
-		},
-		{
 			"configName":"Auete影视",
 			"configType":"WebPage",
 			"itemNameRegex":"<a class=\"btn btn-orange\" title=\"(.*)\" href=\".* target=\"_self\"",
@@ -681,18 +668,6 @@
 			"searchUrl":"https://www.70ys.cc/vodsearch/-------.html?wd={SearchWord}&submit=",
 			"searchUrlRegex":"<h4 class=\"title\"><a class=\"searchkey\" href=\"(.*)\">.*</a></h4>",
 			"sniffExcludeRegex":"https://ia\\.51\\.la.*",
-			"usable":true
-		},
-		{
-			"configName":"五天",
-			"configType":"WebPage",
-			"itemNameRegex":"<li><a title=\"(.*)\" href=\".*\" target=\"_self\">",
-			"itemUrlRegex":"<li><a title=\".*\" href=\"(.*)\" target=\"_self\">",
-			"searchNameRegex":"<a class=\"v-thumb stui-vodlist__thumb lazyload\" href=\".*\" title=\"(.*)\" data-original=",
-			"searchPictureRegex":"data-original=\"(.*)\"> <span class=\"play hidden-xs\">",
-			"searchStateRegex":"<span class=\"pic-text text-right\">(.*)</span>",
-			"searchUrl":"http://www.6uyy.com/search.php?searchword={SearchWord}",
-			"searchUrlRegex":"<a class=\"v-thumb stui-vodlist__thumb lazyload\" href=\"(.*)\" title=\".*\" data-original=",
 			"usable":true
 		},
 		{
